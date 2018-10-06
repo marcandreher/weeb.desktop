@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="weeb.desktop.exe" version="1.0.0.0" publicKeyToken="c77c3bed72102695" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="weeb.desktop" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="weeb.desktop.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC-Manifestoptionen
+          Wenn Sie die Ebene der Windows-Benutzerkontensteuerung ändern möchten, ersetzen Sie den 
+          Knoten "requestedExecutionLevel" durch eine der folgenden Angaben.
+
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel level="highestAvailable" uiAccess="false" />
+
+         Wenn Sie Datei- und Registrierungsvirtualisierung für Abwärtskompatibilität 
+         verwenden möchten, löschen Sie den Knoten "requestedExecutionLevel".
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.IO.Compression.ZipFile.dll" size="24824">
+      <assemblyIdentity name="System.IO.Compression.ZipFile" version="4.0.2.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>tcEukJlkPi7am0nt0NmL2u0VPHKn6OYjXY54cUQC0Wo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="weeb.desktop.exe" size="774704">
+      <assemblyIdentity name="weeb.desktop" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>F10jy9JmNb5sSUnrwLX5iYl2ljUQ6qYS8xW/FR89ujs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="weeb.desktop.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-2SHVENR\Marc Andre Herpers" issuerKeyHash="728d8452fa9fe85791cff2a7f006cb87dfde021f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>M36L/KuQkdfPQl7X5kmf7lOrWDRX0fifUV2WRTUnUV8=</DigestValue></Reference></SignedInfo><SignatureValue>sDRGF8Njq2Fw523TEtJtrmkbWB0BoEF50NBDMGi+f4iKOe5Qo3cwrtZJwoRyUN/F9MYkkto+4t9JHJ3YKBkjfG/RBzPeZiPO/KFFXoiCEFPUjZli/Sa6RIxDZVXOTsSqn+YGGt7tE52yEDAIUquz73M+XcmjwQToHDzDwFNzN2k=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>zQGBmC7Y08OknWlCfrCWkesGb/MhHfA09Nw6ryRizDoJrIfsXnYYzwII82IfVY8yR+V/GrFShoxO1owuR50ZTWvPumWqUIEI9k8eF/vLQ5OUAa0hsaPTy8V/SqeTGUWcGCikRzKc0YOOjzVam+tQypPFCJbFwUYNm/iCH/nl7H0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5f51273545965d519ff8d1573458ab53ee9f49e6d75e42cfd79190abfc8b7e33" Description="" Url=""><as:assemblyIdentity name="weeb.desktop.exe" version="1.0.0.0" publicKeyToken="c77c3bed72102695" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-2SHVENR\Marc Andre Herpers</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>kq2arctJBDrwSc3/1Zv1WRObWzlWRA6IUxLJwSPUAPc=</DigestValue></Reference></SignedInfo><SignatureValue>EApRRIKz1gO2hTRUfRNGEZevImI4QLymuWZPAOgkjF5jyGwtb11XRwG8hwQyK3Yc2aU9re5bo+kIP6b61J2YL0Aqa7f6FoL17E/DgUXsIwmStEczXW4RUdoPkxxr+vEqyOwz3kQSqTysJcmqTWIn+YKioU0D7N7AickILIhiGLk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>zQGBmC7Y08OknWlCfrCWkesGb/MhHfA09Nw6ryRizDoJrIfsXnYYzwII82IfVY8yR+V/GrFShoxO1owuR50ZTWvPumWqUIEI9k8eF/vLQ5OUAa0hsaPTy8V/SqeTGUWcGCikRzKc0YOOjzVam+tQypPFCJbFwUYNm/iCH/nl7H0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICITCCAYqgAwIBAgIQK+RI7hv3iYJJZybYm5AmOjANBgkqhkiG9w0BAQsFADBPMU0wSwYDVQQDHkQARABFAFMASwBUAE8AUAAtADIAUwBIAFYARQBOAFIAXABNAGEAcgBjACAAQQBuAGQAcgBlACAASABlAHIAcABlAHIAczAeFw0xODEwMDIxMTM5MDFaFw0xOTEwMDIxNzM5MDFaME8xTTBLBgNVBAMeRABEAEUAUwBLAFQATwBQAC0AMgBTAEgAVgBFAE4AUgBcAE0AYQByAGMAIABBAG4AZAByAGUAIABIAGUAcgBwAGUAcgBzMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDNAYGYLtjTw6SdaUJ+sJaR6wZv8yEd8DT03DqvJGLMOgmsh+xedhjPAgjzYh9VjzJH5X8asVKGjE7WjC5HnRlNa8+6ZapQgQj2Tx4X+8tDk5QBrSGxo9PLxX9Kp5MZRZwYKKRHMpzRg46PNVqb61DKk8UIlsXBRg2b+IIf+eXsfQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAFb2kmlUR7bZJxnvkBIQ/9WRBoOtVL+NLJj36b4jahqd3EksH1hC/8wi9Bxn8yYbDwmGK67Z0zKoZG4BCzbvoaOcgHOpTkqPhOFzVS0Pa8V8z3SlYnnnLB+WonhfPvLZ7FHPGho8fRjhHEtfcYAv2DaCfyNuMOURh3oFbXuNHQMj</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
