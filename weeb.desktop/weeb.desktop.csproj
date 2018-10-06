@@ -84,12 +84,6 @@
     <Compile Include="Classes\Static.cs" />
     <Compile Include="Classes\Wallpaper.cs" />
     <Compile Include="Classes\Program.cs" />
-    <Compile Include="Neues Design\MainActivity.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Neues Design\MainActivity.Designer.cs">
-      <DependentUpon>MainActivity.cs</DependentUpon>
-    </Compile>
     <Compile Include="Neues Design\MainCreator.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,16 +102,7 @@
     <Compile Include="Neues Design\WallpaperChecker.Designer.cs">
       <DependentUpon>WallpaperChecker.cs</DependentUpon>
     </Compile>
-    <Compile Include="Neues Design\wallpapercreator.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Neues Design\wallpapercreator.Designer.cs">
-      <DependentUpon>wallpapercreator.cs</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Neues Design\MainActivity.resx">
-      <DependentUpon>MainActivity.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Neues Design\MainCreator.resx">
       <DependentUpon>MainCreator.cs</DependentUpon>
     </EmbeddedResource>
@@ -126,9 +111,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Neues Design\WallpaperChecker.resx">
       <DependentUpon>WallpaperChecker.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Neues Design\wallpapercreator.resx">
-      <DependentUpon>wallpapercreator.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -211,8 +193,6 @@
   <ItemGroup>
     <None Include="Resources\if_zoomout_1054931.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Forms\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

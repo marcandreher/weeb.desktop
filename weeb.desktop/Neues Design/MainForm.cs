@@ -5,7 +5,6 @@ using System.IO;
 using System.IO.Compression;
 using System.Windows.Forms;
 using weeb.desktop.Classes;
-using weeb.desktop.Forms;
 
 namespace weeb.desktop.Neues_Design
 {
@@ -123,7 +122,7 @@ namespace weeb.desktop.Neues_Design
 
         private void panel8_Click(object sender, EventArgs e)
         {
-            Form i = new wallpapercreator();
+            Form i = new MainCreator();
             i.Show();
         }
 

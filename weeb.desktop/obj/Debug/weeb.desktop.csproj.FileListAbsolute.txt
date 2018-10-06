@@ -2,13 +2,11 @@ C:\Users\Marc Andre Herpers\source\repos\weeb.desktop\weeb.desktop\bin\Debug\wee
 C:\Users\Marc Andre Herpers\source\repos\weeb.desktop\weeb.desktop\bin\Debug\weeb.desktop.exe
 C:\Users\Marc Andre Herpers\source\repos\weeb.desktop\weeb.desktop\bin\Debug\weeb.desktop.pdb
 C:\Users\Marc Andre Herpers\source\repos\weeb.desktop\weeb.desktop\obj\Debug\weeb.desktop.csprojAssemblyReference.cache
-C:\Users\Marc Andre Herpers\source\repos\weeb.desktop\weeb.desktop\obj\Debug\weeb.desktop.Form1.resources
 C:\Users\Marc Andre Herpers\source\repos\weeb.desktop\weeb.desktop\obj\Debug\weeb.desktop.Properties.Resources.resources
 C:\Users\Marc Andre Herpers\source\repos\weeb.desktop\weeb.desktop\obj\Debug\weeb.desktop.csproj.GenerateResource.cache
 C:\Users\Marc Andre Herpers\source\repos\weeb.desktop\weeb.desktop\obj\Debug\weeb.desktop.csproj.CoreCompileInputs.cache
 C:\Users\Marc Andre Herpers\source\repos\weeb.desktop\weeb.desktop\obj\Debug\weeb.desktop.exe
 C:\Users\Marc Andre Herpers\source\repos\weeb.desktop\weeb.desktop\obj\Debug\weeb.desktop.pdb
-C:\Users\Marc Andre Herpers\source\repos\weeb.desktop\weeb.desktop\obj\Debug\weeb.desktop.Forms.wallpapercreator.resources
 C:\Users\Marc Andre Herpers\source\repos\weeb.desktop\weeb.desktop\bin\Debug\System.IO.Compression.ZipFile.dll
 C:\Users\Marc Andre Herpers\source\repos\weeb.desktop\weeb.desktop\obj\Debug\weeb.desktop.csproj.CopyComplete
 C:\Users\Marc Andre Herpers\source\repos\weeb.desktop\weeb.desktop\obj\Debug\weeb.desktop.Neues_Design.MainForm.resources

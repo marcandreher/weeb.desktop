@@ -54,14 +54,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="weeb.desktop.exe" size="1553456">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="weeb.desktop.exe" size="1545264">
       <assemblyIdentity name="weeb.desktop" version="2.1.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>URA+Z5kPMxPrqfox5LIxOqul9p3vl/8hL4ksprL4Uz8=</dsig:DigestValue>
+        <dsig:DigestValue>CphE8ukXy6JFJpmk/eDommau2gzF/b6hEMZ2fyz3UpI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
