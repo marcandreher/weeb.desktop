@@ -17,13 +17,15 @@ namespace weeb.desktop.Neues_Design
 
         private String pathmeta;
         private String filename;
+        private bool fs;
 
-        public WallpaperChecker(String pathtometa, String diafilename)
+        public WallpaperChecker(String pathtometa, String diafilename, bool filestardet)
         {
             InitializeComponent();
             pathmeta = pathtometa;
             filename = diafilename;
-            if(GetLine(pathmeta, 4).Equals("1.1weebmetatype"))
+            fs = filestardet;
+            if (GetLine(pathmeta, 4).Equals("1.1weebmetatype"))
             {
                 label6.Visible = true;
                 label6.Text = "Old Wallpaper, tell the Creator to update";
@@ -66,7 +68,14 @@ namespace weeb.desktop.Neues_Design
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            this.Close();
+            if(fs == true)
+            {
+                Application.Exit();
+            }
+            else
+            {
+                this.Close();
+            }
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
@@ -82,7 +91,14 @@ namespace weeb.desktop.Neues_Design
             var filePath = filename;
             Directory.CreateDirectory(currentskinpath + "\\wallpaper");
             ZipFile.ExtractToDirectory(filePath, currentskinpath + "\\wallpaper");
-            this.Close();
+            if (fs == true)
+            {
+                Application.Exit();
+            }
+            else
+            {
+                this.Close();
+            }
         }
 
         private bool mouseDown;
@@ -108,6 +124,30 @@ namespace weeb.desktop.Neues_Design
         private void Form1_MouseUp(object sender, MouseEventArgs e)
         {
             mouseDown = false;
+        }
+
+        private void pictureBox2_MouseHover(object sender, EventArgs e)
+        {
+            ToolTip tt = new ToolTip();
+            tt.SetToolTip(this.pictureBox2, "Set Wallpaper!");
+        }
+
+        private void pictureBox1_MouseHover(object sender, EventArgs e)
+        {
+            ToolTip tt = new ToolTip();
+            tt.SetToolTip(this.pictureBox1, "Exit!");
+        }
+
+        private void WallpaperChecker_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (fs == true)
+            {
+                Application.Exit();
+            }
+            else
+            {
+                this.Close();
+            }
         }
     }
 }

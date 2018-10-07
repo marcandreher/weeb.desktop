@@ -66,7 +66,7 @@ namespace weeb.desktop.Neues_Design
                 Directory.CreateDirectory(currentskinpath + "\\checkpaper");
                 ZipFile.ExtractToDirectory(dia.FileName, currentskinpath + "\\checkpaper");
 
-                WallpaperChecker c = new WallpaperChecker(currentskinpath + "\\checkpaper" + "\\m.meta", dia.FileName);
+                WallpaperChecker c = new WallpaperChecker(currentskinpath + "\\checkpaper" + "\\m.meta", dia.FileName, false);
                 c.Show();
             }
         }

@@ -73,6 +73,16 @@ namespace weeb.desktop.Properties {
         /// <summary>
         ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dancing_anime_gif_png_8 {
+            get {
+                object obj = ResourceManager.GetObject("dancing-anime-gif-png-8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap if_clipboard_1055091 {
             get {
                 object obj = ResourceManager.GetObject("if_clipboard_1055091", resourceCulture);
