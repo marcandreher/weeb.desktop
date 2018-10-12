@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainCreator));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -62,9 +64,9 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel6.SuspendLayout();
@@ -77,8 +79,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.panel7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -97,6 +97,30 @@
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
             this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseMove);
             this.panel1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseUp);
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox10.Image = global::weeb.desktop.Properties.Resources.if_zoomout_1054931;
+            this.pictureBox10.Location = new System.Drawing.Point(736, 28);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(42, 42);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox10.TabIndex = 10;
+            this.pictureBox10.TabStop = false;
+            this.pictureBox10.Click += new System.EventHandler(this.pictureBox10_Click);
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox9.Image = global::weeb.desktop.Properties.Resources.if_Close_1891023;
+            this.pictureBox9.Location = new System.Drawing.Point(784, 28);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(42, 42);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox9.TabIndex = 9;
+            this.pictureBox9.TabStop = false;
+            this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
             // 
             // pictureBox6
             // 
@@ -336,50 +360,69 @@
             // 
             // tags
             // 
-            this.tags.Location = new System.Drawing.Point(309, 125);
+            this.tags.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
+            this.tags.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tags.ForeColor = System.Drawing.Color.White;
+            this.tags.Location = new System.Drawing.Point(336, 130);
             this.tags.Name = "tags";
-            this.tags.Size = new System.Drawing.Size(121, 20);
+            this.tags.Size = new System.Drawing.Size(121, 13);
             this.tags.TabIndex = 17;
             this.tags.Text = "weeb, good, girls";
             // 
             // key
             // 
-            this.key.Location = new System.Drawing.Point(309, 103);
+            this.key.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.key.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.key.Cursor = System.Windows.Forms.Cursors.Default;
+            this.key.ForeColor = System.Drawing.Color.White;
+            this.key.Location = new System.Drawing.Point(357, 106);
             this.key.Name = "key";
             this.key.ReadOnly = true;
-            this.key.Size = new System.Drawing.Size(100, 20);
+            this.key.Size = new System.Drawing.Size(100, 13);
             this.key.TabIndex = 16;
             this.key.Text = "rfngg/hub";
             // 
             // author
             // 
-            this.author.Location = new System.Drawing.Point(309, 82);
+            this.author.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
+            this.author.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.author.ForeColor = System.Drawing.Color.White;
+            this.author.Location = new System.Drawing.Point(357, 85);
             this.author.Name = "author";
-            this.author.Size = new System.Drawing.Size(100, 20);
+            this.author.Size = new System.Drawing.Size(100, 13);
             this.author.TabIndex = 15;
             this.author.Text = "Kimi No Na Wa";
             // 
             // description
             // 
-            this.description.Location = new System.Drawing.Point(309, 61);
+            this.description.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
+            this.description.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.description.ForeColor = System.Drawing.Color.White;
+            this.description.Location = new System.Drawing.Point(314, 64);
             this.description.Name = "description";
-            this.description.Size = new System.Drawing.Size(143, 20);
+            this.description.Size = new System.Drawing.Size(143, 13);
             this.description.TabIndex = 14;
             this.description.Text = "A weeb Wallpaper";
             // 
             // filename
             // 
-            this.filename.Location = new System.Drawing.Point(309, 40);
+            this.filename.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
+            this.filename.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.filename.ForeColor = System.Drawing.Color.White;
+            this.filename.Location = new System.Drawing.Point(327, 43);
             this.filename.Name = "filename";
-            this.filename.Size = new System.Drawing.Size(130, 20);
+            this.filename.Size = new System.Drawing.Size(130, 13);
             this.filename.TabIndex = 13;
             this.filename.Text = "Default weeby wallpaper";
             // 
             // threadtimeout
             // 
-            this.threadtimeout.Location = new System.Drawing.Point(309, 18);
+            this.threadtimeout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
+            this.threadtimeout.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.threadtimeout.ForeColor = System.Drawing.Color.White;
+            this.threadtimeout.Location = new System.Drawing.Point(391, 21);
             this.threadtimeout.Name = "threadtimeout";
-            this.threadtimeout.Size = new System.Drawing.Size(66, 20);
+            this.threadtimeout.Size = new System.Drawing.Size(66, 13);
             this.threadtimeout.TabIndex = 12;
             this.threadtimeout.Text = "5";
             // 
@@ -437,30 +480,6 @@
             this.label8.TabIndex = 6;
             this.label8.Text = "Thread Timeout (Means the break between Wallpapers)";
             // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox10.Image = global::weeb.desktop.Properties.Resources.if_zoomout_1054931;
-            this.pictureBox10.Location = new System.Drawing.Point(736, 28);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(42, 42);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox10.TabIndex = 10;
-            this.pictureBox10.TabStop = false;
-            this.pictureBox10.Click += new System.EventHandler(this.pictureBox10_Click);
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox9.Image = global::weeb.desktop.Properties.Resources.if_Close_1891023;
-            this.pictureBox9.Location = new System.Drawing.Point(784, 28);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(42, 42);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 9;
-            this.pictureBox9.TabStop = false;
-            this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
-            // 
             // MainCreator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -480,6 +499,8 @@
             this.Text = "weeb.desktop - Wallpaper Creator";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
@@ -497,8 +518,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

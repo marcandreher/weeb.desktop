@@ -55,14 +55,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="weeb.desktop.exe" size="2404912">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="weeb.desktop.exe" size="2405424">
       <assemblyIdentity name="weeb.desktop" version="2.1.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>PBbmgpKx5b/vE89X1FsZgWZA8e6AMFcscfdpkl4j8B0=</dsig:DigestValue>
+        <dsig:DigestValue>EDfNMCZqn4mGAqNsl7CMX7A6QSyLy5Lhp4gnjbbFJLg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
